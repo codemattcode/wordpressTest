@@ -5,6 +5,6 @@
         We ARE going to figure stuff out here...and load plugins and test them also...
     </p>
 
-<h2>hello world!</h2>
+
 
 <?php get_footer(); ?>
