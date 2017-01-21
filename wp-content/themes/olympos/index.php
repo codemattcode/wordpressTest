@@ -9,4 +9,8 @@
 	</div>
 
 
+<template id="post-list-template">
+	<h1>hello world!</h1>
+</template>
+
 <?php get_footer(); ?>

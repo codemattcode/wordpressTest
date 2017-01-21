@@ -3,7 +3,7 @@ var App = Vue.extend({});
 
 // create postList Component
 var postList = Vue.extend({
-  template:"<h1>Hello World!</h1>"
+  template:'#post-list-template'
 })
 
 var router = new VueRouter();
@@ -15,3 +15,6 @@ router.map({
 })
 
 router.start(App, '#app');
+
+
+console.log('hello world!');
