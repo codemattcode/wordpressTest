@@ -8,13 +8,14 @@ var postList = Vue.extend({
 
 var router = new VueRouter();
 
-router.map({
-  '/':{
-    component: postList
-  }
+var router = new VueRouter({
+  routes: [
+    { path: '/', component: postList }
+  ]
 })
 
-router.start(App, '#app');
-
-
-console.log('hello world!');
+new Vue({
+  el: '#app',
+  router: router,
+  template: '<router-view></router-view>'
+})

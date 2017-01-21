@@ -10,7 +10,12 @@
 
 
 <template id="post-list-template">
+<div class="">
+
 	<h1>hello world!</h1>
+	<code>is this code?</code>
+
+</div>
 </template>
 
 <?php get_footer(); ?>
