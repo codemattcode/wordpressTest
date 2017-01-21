@@ -3,7 +3,7 @@
 	<div class="white-wrap">
 		<div id="app">
 
-			<router-view></router-view>	
+			<router-view></router-view>
 
 		</div>
 	</div>
