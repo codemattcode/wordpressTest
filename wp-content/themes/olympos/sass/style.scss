@@ -1,17 +1,3 @@
-/* CSS Document */
-/*!
-Theme Name: Olympos
-Description: Blank Wordpress Theme
-Version: 3.0
-Author: Ivan Dorić
-Author URI: http://www.watch-learn.com/
-Tags: starter theme, light, sass, gulp, livereload
-
-        The CSS, XHTML is released under GPL:
-        http://www.opensource.org/licenses/gpl-license.php
-
-*/
-
 /* Vendor */
 @import "susy";
 @import "su";
@@ -24,13 +10,8 @@ Tags: starter theme, light, sass, gulp, livereload
 @import "fonts";
 @import "globals";
 
-
 /* WP parts */
 @import "header";
 @import "homepage";
 @import "sidebar";
 @import "footer";
-
-
-
-
