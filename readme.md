@@ -1,6 +1,6 @@
 #This is a wordpressTest site...
 
-## Copy package.json and gulpfile.js into WordPress root.
+## edit gulpfile.js paths > point to ./
 
 - add .gitignore file
 - npm install
